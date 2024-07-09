@@ -10,7 +10,7 @@ const ArticuloSchema = Schema({
     fecha: {type: Date,
         default: Date.now
     },
-    iamgen: {
+    imagen: {
         type: String,
         default: "default.png"
     }
